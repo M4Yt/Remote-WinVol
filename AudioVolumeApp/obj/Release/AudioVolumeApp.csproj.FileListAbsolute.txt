@@ -1,0 +1,10 @@
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\AudioVolumeApp.exe.config
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\AudioVolumeApp.exe
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\AudioVolumeApp.pdb
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\AudioSwitcher.AudioApi.CoreAudio.dll
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\AudioSwitcher.AudioApi.dll
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Release\Fleck.dll
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.csproj.CoreCompileInputs.cache
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.csproj.CopyComplete
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.exe
+G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.pdb

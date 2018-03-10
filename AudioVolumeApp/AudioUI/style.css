@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.vertical {
+  display: inline-block;
+  width: 320px;
+  height: 100vh;
+  padding: 0;
+  margin-left: calc(50% - 160px);
+}
+
+.vertical input {
+  width: 100vh;
+  height: 320px;
+  margin: 0;
+  transform-origin: 50vh 50vh;
+  transform: rotate(-90deg);
+}
+
+.custom {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+    border-radius: 16px;
+    outline: none;
+}
+
+.custom::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 320px;
+    height: 320px;
+    border-radius: 16px;
+    background: #D11;
+    cursor: pointer;
+}
+
+.custom::-moz-range-thumb {
+    width: 320px;
+    height: 320px;
+    border-radius: 16px;
+    border: none;
+    background: #D11;
+    cursor: pointer;
+}
+
+.custom::-moz-range-track {
+    opacity: 0;
+}
