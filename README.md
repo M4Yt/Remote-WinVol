@@ -11,12 +11,10 @@ Controlling the Windows volume is done with [AudioSwitcher's CoreAudioApi](https
 
 The WebSockets implementation has been made using [Fleck](https://github.com/statianzo/Fleck).
 
-
+----
 ## Usage
 
 Once you've either cloned or downloaded this repository, run `AudioVolumeApp.exe`, located in `AudioVolumeApp/bin/Release/` and `run-server.bat`, located in `AudioVolumeApp/AudioUI/`. This assumes you run Python 3 with the `py` command, change it to `python3` if your installation of Python requires that. Once both servers run, you can visit the remote control page on `[YourLocalIP]:8080` on any device in your local network.
-
-----
 
 ----
 ## License
