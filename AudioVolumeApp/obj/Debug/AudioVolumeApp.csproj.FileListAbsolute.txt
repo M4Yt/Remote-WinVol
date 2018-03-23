@@ -9,3 +9,15 @@ G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Debug\AudioVolumeApp.
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Debug\AudioVolumeApp.exe
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Debug\AudioVolumeApp.pdb
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\bin\Debug\Fleck.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\AudioVolumeApp.exe.config
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\AudioVolumeApp.exe
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\AudioVolumeApp.pdb
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\AudioSwitcher.AudioApi.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\Fleck.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Debug\AudioVolumeApp.csprojResolveAssemblyReference.cache
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Debug\AudioVolumeApp.csproj.CoreCompileInputs.cache
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Debug\AudioVolumeApp.exe
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Debug\AudioVolumeApp.pdb
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\WindowsInput.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Debug\WindowsInput.xml

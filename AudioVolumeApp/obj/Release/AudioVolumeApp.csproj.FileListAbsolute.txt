@@ -8,3 +8,15 @@ G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeAp
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.csproj.CopyComplete
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.exe
 G:\Documents\Programming\AudioVolumeApp\AudioVolumeApp\obj\Release\AudioVolumeApp.pdb
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\AudioVolumeApp.exe.config
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\AudioVolumeApp.exe
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\AudioVolumeApp.pdb
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\AudioSwitcher.AudioApi.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\Fleck.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\WindowsInput.dll
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\bin\Release\WindowsInput.xml
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Release\AudioVolumeApp.csprojResolveAssemblyReference.cache
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Release\AudioVolumeApp.csproj.CoreCompileInputs.cache
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Release\AudioVolumeApp.exe
+C:\Users\fthiellier\Documents\Remote-WinVol\AudioVolumeApp\obj\Release\AudioVolumeApp.pdb
