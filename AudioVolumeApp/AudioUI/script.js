@@ -3,21 +3,13 @@
 window.addEventListener("load", init);
 
 let socket;
-let slider, playpause, stop, prev, next;
+let slider, playpause, stop, prev, next, reconnect;
 
 function init() {
-    let ip = location.hostname || "localhost";
-    socket = new WebSocket("ws://"+ip+":8181");
-    socket.onopen = () => {
-        console.log("Connected!");
-    }
-
-    socket.onmessage = (e) => {
-        setSliderPos(e.data);
-    }
-
-    socket.onclose = () => {
-        slider.setAttribute("disabled","");
+    try {
+        connectSocket();
+    } catch(e) {
+        openModal("connection-error");
     }
 
     slider = document.getElementById("volume");
@@ -34,6 +26,26 @@ function init() {
 
     next = document.getElementById("next");
     next.addEventListener("click", sendMediaKey);
+
+    reconnect = document.getElementById("reconnect");
+    reconnect.addEventListener("click", connectSocket);
+}
+
+function connectSocket() {
+    let ip = location.hostname || "localhost";
+    socket = new WebSocket("ws://"+ip+":8181");
+    socket.onopen = () => {
+        console.log("Connected!");
+        closeModal("connection-error");
+    }
+
+    socket.onmessage = (e) => {
+        setSliderPos(e.data);
+    }
+
+    socket.onclose = () => {
+        openModal("connection-error");
+    }
 }
 
 function changeVolume() {
@@ -47,4 +59,18 @@ function setSliderPos(pos) {
 
 function sendMediaKey() {
     socket.send(this.id);
+}
+
+function openModal(id) {
+    let modal = document.getElementById(id);
+    modal.style.display = "flex";
+    let content = modal.children[0];
+    content.style.maxHeight = content.scrollHeight+"px";
+}
+
+function closeModal(id) {
+    let modal = document.getElementById(id);
+    let content = modal.children[0];
+    modal.style.display = "none";
+    content.style.maxHeight = "0";
 }
