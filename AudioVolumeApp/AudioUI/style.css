@@ -4,19 +4,20 @@ body {
     height: 100vh;
     font-size: 16px;
     font-family: sans-serif;
+    user-select: none;
 }
 
 .vertical {
   display: inline-block;
-  width: 32px;
+  width: 3vh;
   height: 80vh;
   padding: 0;
-  margin-left: calc(50% - 16px);
+  margin-left: calc(50% - 1.5vh);
 }
 
 .vertical input {
   width: 80vh;
-  height: 32px;
+  height: 3vh;
   margin: 0;
   transform-origin: 40vh 40vh;
   transform: rotate(-90deg);
@@ -32,16 +33,16 @@ body {
 .custom::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 160px;
-    height: 160px;
+    width: 16vh;
+    height: 16vh;
     border-radius: 50%;
     background: #D11;
     cursor: pointer;
 }
 
 .custom::-moz-range-thumb {
-    width: 160px;
-    height: 160px;
+    width: 16vh;
+    height: 16vh;
     border-radius: 50%;
     border: none;
     background: #D11;
@@ -72,6 +73,11 @@ body {
     color: #FFF;
     font-size: 1.5em;
     text-align: center;
+}
+
+#mediakeys img {
+    transform: scale(0.5);
+    filter: invert(100%);
 }
 
 button {

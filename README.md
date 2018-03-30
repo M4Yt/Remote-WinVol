@@ -3,6 +3,12 @@
 This is a tool to change your volume and send media keys to your Windows device from any other device on your local network.
 
 ----
+## Screenshots
+
+![Error](https://i.imgur.com/bRBfHK4.png)
+![Standard](https://i.imgur.com/CP1vPvm.png)
+
+----
 ## Technology
 
 The core program is written in C# and Python 3 is used to serve the web client.
