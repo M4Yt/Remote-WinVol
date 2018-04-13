@@ -22,7 +22,10 @@ The WebSockets implementation has been made using [Fleck](https://github.com/sta
 ----
 ## Usage
 
-Once you've either cloned or downloaded this repository, run `AudioVolumeApp.exe`, located in `AudioVolumeApp/bin/Release/` and `run-server.bat`, located in `AudioVolumeApp/AudioUI/`. This assumes you run Python 3 with the `py` command, change it to `python3` if your installation of Python requires that. Once both servers run, you can visit the remote control page on `[YourLocalIP]:8000` on any device in your local network.
+For debugging, set the working directory to the AudioVolumeApp folder in Visual Studio.
+When building a release, copy the AudioUI folder to the release folder.
+
+To just use it, make sure to have python3 installed (bound to the py command), extract the contents of the zip to a folder and then just run `AudioVolumeApp.exe`. You can then navigate to `[YourLocalIP]:8000` on any device in your local network for the remote control.
 
 ----
 ## License

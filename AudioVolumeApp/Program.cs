@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -70,6 +71,20 @@ namespace AudioVolumeApp
                         }
                     }
                 };
+            });
+
+
+            Task t = Task.Run(() =>
+            {
+                var uiServer = new Process();
+
+                uiServer.StartInfo.UseShellExecute = false;
+                uiServer.StartInfo.FileName = "py";
+                uiServer.StartInfo.Arguments = "-m http.server";
+                uiServer.StartInfo.WorkingDirectory = "AudioUI";
+
+                uiServer.Start();
+                uiServer.WaitForExit();
             });
 
             while (true)
