@@ -73,8 +73,7 @@ namespace AudioVolumeApp
                 };
             });
 
-
-            Task t = Task.Run(() =>
+            Task.Run(() =>
             {
                 var uiServer = new Process();
 
@@ -86,11 +85,13 @@ namespace AudioVolumeApp
                 uiServer.Start();
                 uiServer.WaitForExit();
             });
-
+            
             while (true)
             {
-                double input = Double.Parse(Console.ReadLine());
-                Master.Volume = input;
+                if (Double.TryParse(Console.ReadLine(), out double input))
+                {
+                    Master.Volume = input;
+                }
             }
         }
 
